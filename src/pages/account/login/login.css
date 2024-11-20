@@ -1,0 +1,280 @@
+.btn-login {
+    width: 100%;
+    height: 48px;
+    background: var(--color-main);
+    border-radius: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-login {
+    width: 77px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.login-page .MuiFormLabel-root {
+    font-size: 14px !important;
+}
+
+.login-page input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+h1.login-label {
+    margin-top: 32px;
+}
+
+.login-label {
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--color-title);
+}
+
+.form-text-float-right {
+    float: right;
+    width: 105px;
+    height: 20px;
+    left: 501px;
+    top: 507px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0078d7;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.input-check {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999699;
+}
+
+.login-form-forgot {
+    float: right;
+    text-decoration: none;
+}
+
+.login-page {
+    background-image: url('../../../images/bg-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.login-page h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #3b4758;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.login-page-inner {
+    max-width: 480px;
+    padding: 40px 24px;
+    -webkit-box-shadow: 0px 4px 20px 0px rgba(170, 169, 184, 0.1);
+    box-shadow: 0px 4px 20px 0px rgba(170, 169, 184, 0.1);
+    border-radius: 12px;
+    background-color: #fff;
+    padding-bottom: 48px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    max-height: calc(100vh - 120px);
+    border: 1px solid rgba(163, 173, 194, 1);
+}
+
+.logo-login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-login .logo-image img {
+    width: 28px;
+    height: 28px;
+}
+
+.logo-login .logo-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-main);
+    font-family: 'Vinhan';
+}
+
+.login-form input {
+    font-family: 'Roboto';
+    font-size: 14px !important;
+    color: #999699;
+    background: #f2f6fa;
+    border: 0 !important;
+}
+
+.login-page #password {
+    background-color: transparent;
+    padding: 0;
+}
+
+.quenMk {
+    color: #009ef7;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.login-form-forgot {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    color: #319dff;
+}
+
+.remember {
+    font-size: 14px;
+    color: #666466;
+    font-family: 'Roboto';
+}
+
+.login-form .MuiFormControl-root {
+    width: 100%;
+}
+
+.btn-login {
+    margin-top: 0;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.text-login {
+    font-weight: 500 !important;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.text-support {
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text-support span {
+    color: var(--color-main);
+}
+
+.text-register {
+    color: #999699;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+.form-item:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.form-item_checkBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bg-pw {
+    background: #f2f6fa;
+    border-radius: 6px;
+}
+
+@media (max-width: 576px) {
+    .login-page {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .logo-login {
+        padding-left: 16px;
+    }
+    .css-1oqqzyl-MuiContainer-root {
+        padding: 0 !important;
+    }
+}

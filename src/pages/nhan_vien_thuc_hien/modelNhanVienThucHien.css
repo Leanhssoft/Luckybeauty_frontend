@@ -1,0 +1,40 @@
+/* #poppup-nhanVienThucHien {
+    position: fixed;
+    width: calc(100vw - 64px);
+    height: calc(100vh - 64px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color: #fff;
+    border-radius: 12px;
+    z-index: 5;
+    padding: 24px;
+    padding-bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+    z-index: 30;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#poppup-nhanVienThucHien.show {
+    opacity: 1;
+    pointer-events: all;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.4s;
+    z-index: 20;
+}
+.overlay.show {
+    pointer-events: all;
+    opacity: 1;
+} */

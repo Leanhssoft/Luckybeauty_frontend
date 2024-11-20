@@ -1,0 +1,228 @@
+.btn-register {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+p {
+    margin-bottom: 0;
+}
+
+.register-page h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #3b4758;
+    margin-bottom: 0;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.register-page {
+    padding-left: 41px;
+    background-image: url('../../../images/bg-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 114px;
+    padding-top: 40px;
+    padding-right: 41px;
+}
+.logo-register img {
+    width: 28px;
+    height: 28px;
+}
+.logo-register {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo-register .logo-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f0d1a;
+    font-family: 'Roboto';
+}
+
+.register-col {
+    width: 480px;
+    padding: 40px 24px 48px 24px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 20px 0px #aaa9b81a;
+    box-shadow: 0px 4px 20px 0px #aaa9b81a;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.btn-register {
+    background: #7c3367 !important;
+    border: 0;
+    border-radius: 6px;
+}
+
+.text-login {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.passwords {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.passwords > .w-100 {
+    width: 100%;
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+    max-width: unset;
+}
+
+.select-row {
+    width: 100%;
+    gap: 24px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 24px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.w-5-0 {
+    -ms-flex-preferred-size: unset !important;
+    flex-basis: unset !important;
+
+    -webkit-box-flex: 1;
+
+    -ms-flex-positive: 1;
+
+    flex-grow: 1;
+}
+
+.register-page input {
+    border: 0;
+    border-radius: 6px;
+    background: #f2f6fa;
+
+    font-size: 14px;
+    color: #666466;
+    font-family: 'Roboto';
+    padding: 10px 20px !important;
+}
+.register-page .login-label span {
+    color: #666466;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dieu-khoan-bao-mat p a {
+    text-decoration: none;
+    color: #319dff;
+}
+
+.dieu-khoan-bao-mat p {
+    font-family: 'Roboto';
+    margin-bottom: 0;
+}
+.dieu-khoans {
+    width: 100%;
+}
+
+.has-login {
+    font-family: 'Roboto';
+    color: #999699;
+    font-size: 14px;
+    text-align: center;
+}
+.has-login a {
+    color: #009ef7;
+    text-decoration: none;
+}
+
+.error-password {
+    position: absolute;
+    bottom: -22px;
+}
+
+.register-page .MuiInputLabel-formControl {
+    font-size: 14px;
+    top: -5px;
+    font-weight: 500;
+}
+
+.register-page .MuiSelect-select {
+    background: #f2f6fa;
+}
+
+.register-page .MuiSelect-select {
+    padding: 0 !important;
+    height: 40px !important;
+}
+.register-page .MuiGrid-root {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.bg-pw {
+    background: #f2f6fa;
+    border-radius: 6px;
+}
+.select-location {
+    height: 40px;
+    background: #f2f6fa;
+    border-radius: 6px;
+}
+.register-page .MuiInputBase-root::before {
+    border-bottom: none !important;
+    display: none !important;
+}
+.register-page .MuiInputBase-root::after {
+    display: none !important;
+}
+/* .register-page .MuiSvgIcon-root {
+    top: -9px !important;
+} */
+.register-page .MuiFormControl-root {
+    width: 100%;
+}
+.register-page select {
+    height: 31px;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #666466;
+}
+.register-page .MuiInputBase-root {
+    margin-top: 0;
+}
+.dieu-khoan a {
+    text-decoration: none;
+    color: #319dff;
+}
+.dieu-khoan {
+    font-size: 14px;
+    color: #666466;
+}
+@media (max-width: 576px) {
+    .register-col {
+        width: 100%;
+    }
+    .register-page {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media (max-width: 390px) {
+    .select-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

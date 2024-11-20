@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-main);
+}
+
+body {
+    margin: 0;
+    padding-right: 0 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: var(--font-family-main);
+    /* overflow-x: hidden; */
+    width: 100vw;
+}
+/* @font-face {
+    font-family: 'VLAMPLE';
+    src: url('./font/VL_AMPLE-MEDIUM.OTF');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Thin.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'vinhan';
+    src: url('./font/vni.common.VINHAN.ttf');
+} */
+
+.text-danger {
+    color: #dc3545;
+    font-size: 13px;
+}

@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0!important;
+    padding: 0!important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/tablecolumnresize.css */
+
+.ck-content .table table {
+    overflow: hidden!important;
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/tablecolumnresize.css */
+
+.ck-content .table td,
+.ck-content .table th {
+    overflow-wrap: break-word!important;
+    position: relative!important;
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/table.css */
+
+.ck-content .table {
+    margin: 0.9em auto;
+    display: table;
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/table.css */
+
+.ck-content .table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+    /* border: 1px double hsl(0, 0%, 70%); */
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/table.css */
+
+.ck-content .table table td,
+.ck-content .table table th {
+    min-width: 2em;
+    padding: .2em!important;
+    /* border: 1px solid hsl(0, 0%, 75%); */
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/table.css */
+
+.ck-content .table table th {
+    font-weight: bold;
+    background: hsla(0, 0%, 0%, 5%);
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/table.css */
+
+.ck-content[dir="rtl"] .table th {
+    text-align: right;
+}
+
+
+/* @ckeditor/ckeditor5-table/theme/table.css */
+
+.ck-content[dir="ltr"] .table th {
+    text-align: left;
+}
+
+
+/* @ckeditor/ckeditor5-page-break/theme/pagebreak.css */
+
+.ck-content .page-break {
+    position: relative;
+    clear: both;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* @ckeditor/ckeditor5-font/theme/fontsize.css */
+
+.ck-content .text-tiny {
+    font-size: .7em;
+}
+
+
+/* @ckeditor/ckeditor5-font/theme/fontsize.css */
+
+.ck-content .text-small {
+    font-size: .85em;
+}
+
+
+/* @ckeditor/ckeditor5-font/theme/fontsize.css */
+
+.ck-content .text-big {
+    font-size: 1.4em;
+}
+
+
+/* @ckeditor/ckeditor5-font/theme/fontsize.css */
+
+.ck-content .text-huge {
+    font-size: 1.8em;
+}
+
+
+/* @ckeditor/ckeditor5-horizontal-line/theme/horizontalline.css */
+
+.ck-content hr {
+    margin: 15px 0;
+    height: 4px;
+    background: hsl(0, 0%, 87%);
+    border: 0;
+}
+
+@media print {
+    /* @ckeditor/ckeditor5-page-break/theme/pagebreak.css */
+    .ck-content .page-break {
+        padding: 0;
+    }
+    /* @ckeditor/ckeditor5-page-break/theme/pagebreak.css */
+    .ck-content .page-break::after {
+        display: none;
+    }
+}

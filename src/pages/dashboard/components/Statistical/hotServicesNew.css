@@ -1,0 +1,65 @@
+
+.recharts-tooltip-item::before{
+    content:'';
+    width: 0.3472222222222222vw;
+    height: 0.3472222222222222vw;
+    border-radius: 50%;
+    background: #000;
+    display: block;
+}
+.recharts-tooltip-item{
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.4166666666666667vw;
+}
+.recharts-tooltip-wrapper {
+    width: 13.88888888888889vw;
+}
+.chart .recharts-tooltip-item:first-child:before{
+    background: #CBADC2;
+}
+.chart .recharts-tooltip-item:nth-child(2):before{
+    background: #FFC700;
+}
+
+.services .recharts-tooltip-item:first-child:before{
+    background: #7C3367;
+
+}
+
+.services .recharts-tooltip-item:nth-child(2):before{
+    background: #E5D6E1;
+
+}
+.service-progress {
+    height: 8px;
+    border-radius: 70px;
+}
+.service-progressBar {
+    width: 70%;
+    height: 100%;
+    border-radius: 70px;
+}
+.service-row-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    margin-bottom: 6px;
+}
+.services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 24px;
+}

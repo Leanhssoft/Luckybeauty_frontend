@@ -1,0 +1,10 @@
+.thoi-gian-nghi-page .MuiDataGrid-columnHeaders {
+    background-color: var(--color-bg);
+}
+.thoi-gian-nghi-page .MuiTablePagination-selectLabel,
+.thoi-gian-nghi-page .MuiTablePagination-displayedRows {
+    margin-bottom: 0 !important;
+}
+.poppup-them-ngay-nghi .MuiPaper-root {
+    max-width: unset !important;
+}

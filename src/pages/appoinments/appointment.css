@@ -1,0 +1,41 @@
+h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+  }
+  a{
+    text-decoration: none;
+  }
+  li {
+    /* margin: 1.5em 0; */
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  b { /* used for event dates/times */
+    margin-right: 3px;
+  }
+.fc { /* the calendar root */
+    /*max-width: 1100px;*/
+    height:auto;
+    margin: 0 auto;
+  }
+  /* .fc-scrollgrid-sync-inner{
+    height: 50px;
+  } */
+  .fc-col-header-cell-cushion{
+    background-color: #EEF0F4;
+    color:rgb(82, 95, 122);
+    width: 100%;
+  }
+  .fc .fc-timegrid-slot {
+    border-bottom: 0px;
+    height: 60px;
+  }
+  .fc .fc-daygrid-day-number{
+    color:rgb(41, 48, 61);
+  }

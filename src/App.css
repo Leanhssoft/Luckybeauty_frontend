@@ -1,0 +1,468 @@
+.App {
+    text-align: center;
+}
+body .font-normal {
+    font-size: 14px;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-react-schedule/styles/material.css';
+
+.MuiDialogTitle-root {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* .MuiDialogActions-root {
+    padding-right: 20px;
+} */
+
+.page-title-search {
+    background-color: var(--color-bg);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+}
+
+.icon-size {
+    font-size: 40px;
+    color: var(--color-main);
+}
+
+.grid-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.btnIcon {
+    /* do dộ rông của ô text nhập giá bán nó như thế này */
+    border-radius: 4px !important;
+    border: 1px solid #cccc !important;
+    cursor: pointer;
+}
+.btnIcon:hover {
+    background-color: var(--color-bg);
+    color: black;
+}
+
+.btnIconText {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* .MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 3px;
+} */
+
+.table-head tr th {
+    padding: 3px 5px;
+    border-color: #cccc;
+    text-align: center;
+}
+
+.table-body tr td {
+    padding: 0px 5px;
+}
+
+.MuiButtonBase-root.btnSecond {
+    padding: 3px 14px;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing {
+    padding-right: 24px;
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+    margin-bottom: 0;
+}
+
+.MuiAutocomplete-option {
+    font-size: var(--font-size-main) !important;
+}
+.MuiSvgIcon-root:hover{
+    filter: saturate(1.2)!important; /*tăng độ bão hòa của màu --> làm đậm màu hơn so với màu gốc*/
+    cursor: pointer!important;
+}
+
+
+/* style main button*/
+
+.btnNhapXuat {
+    background-color: #fff !important;
+    color: #666466 !important;
+    padding: 10px 16px;
+    border-color: #e6e1e6 !important;
+    height: 40px !important;
+}
+
+.button-not-active {
+    color: #cccc !important;
+    border-color: #cccc !important;
+}
+
+/* style text in button */
+
+.MuiButton-root {
+    text-transform: initial !important;
+    font-weight: 400 !important;
+}
+
+/* button paging selected */
+
+.MuiPaginationItem-root.Mui-selected {
+    background-color: var(--color-main) !important;
+    color: white !important;
+}
+
+.MuiTreeItem-content {
+    padding: 8px 8px;
+}
+
+.MuiTreeItem-content .MuiTreeItem-label {
+    padding-left: 8px;
+}
+
+.modal-lable {
+    font-size: var(--font-size-main) !important;
+    font-weight: 500 !important;
+}
+
+/* error at TextField */
+
+.MuiFormHelperText-root {
+    margin-left: 0px !important;
+    color: red !important;
+}
+
+/* .MuiInputBase-input::placeholder {
+    font-size: 14px;
+}
+.MuiFormControlLabel-label {
+    font-size: 14px;
+} */
+
+/* .MuiOutlinedInput-root {
+    font-size: 14px;
+    border-radius: 4px !important;
+} */
+
+/* text input */
+
+.MuiOutlinedInput-input {
+    font-size: var(--font-size-main) !important;
+    /* do thay đổi fontsize mặc định của textfied (16px -->14px) */
+     /* nên cũng phải thay đổi line-height của input cho phù hợp (1.4375em (23px --> 20px) */
+      /* chiều cao của input sau khi tahy đổi (40px --> 37px) */
+    height: 20px;
+}
+
+/* .inputEdit .MuiOutlinedInput-root {
+    border-radius: 4px !important;
+} */
+
+.MuiRadio-root.Mui-checked {
+    color: var(--color-main) !important;
+}
+
+.MuiDataGrid-root {
+    font-size: var(--font-size-main) !important;
+    border: none !important;
+}
+
+.MuiTypography-root {
+    font-family: var(--font-family-main) !important;
+}
+
+.MuiPaper-root:not(.MuiDialog-paper) {
+    color: var(--font-color) !important;
+}
+
+.MuiTypography-root.MuiTypography-body2 {
+    font-size: var(--font-size-main) !important;
+}
+
+.MuiMenuItem-root,
+.MuiInputBase-formControl {
+    font-size: var(--font-size-main) !important;
+    font-family: var(--font-family-main) !important;
+}
+
+/* placeholder (not MuiInputLabel-shrink: label when focus)  */
+
+.MuiFormControl-root .MuiFormLabel-root:not(.MuiInputLabel-shrink) {
+    font-size: var(--font-size-main) !important;
+    font-family: var(--font-family-main) !important;
+}
+
+/* dịnh dang label khi focus vao input (vẫn giữ nguyên font mặc định = Roboto*/
+
+.MuiFormControl-root .MuiFormLabel-root.MuiInputLabel-shrink {
+    font-size: 15px !important;
+}
+
+/* data-grid */
+
+.MuiDataGrid-columnHeaderTitleContainerContent .MuiBox-root {
+    font-weight: 600;
+}
+
+.MuiDataGrid-columnHeadersInner,
+.MuiTableHead-root {
+    background-color: var(--color-header-table) !important;
+}
+
+.MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.MuiDataGrid-columnHeader:focus-within,
+.MuiDataGrid-cell:focus-within {
+    outline: none !important;
+}
+
+.MuiDataGrid-row.Mui-selected,
+.MuiDataGrid-row.Mui-selected:hover,
+.MuiDataGrid-row.Mui-selected.Mui-hovered {
+    background-color: var(--color-bg) !important;
+}
+
+.autocomplete-option {
+    /* border-bottom: 1px dashed var(--border-color); */
+    font-size: var(--font-size-main);
+    padding: 10px !important;
+}
+
+/* label at radio */
+
+.MuiFormControlLabel-label.MuiTypography-root {
+    font-size: var(--font-size-main) !important;
+}
+
+.lableOverflow {
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+}
+
+.page-title {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #333233;
+}
+
+.modal-title {
+    /* ~ 22px*/
+    font-size: 1.375rem !important;
+    font-weight: 700 !important;
+}
+
+.user-icon-upload {
+    width: 80px !important;
+    height: 80px !important;
+    color: #dfdcdc !important;
+    border-radius: 100% !important;
+    border: 1px solid #cccc;
+    padding: 10px !important;
+}
+
+.user-image-upload {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 80px !important;
+    min-height: 80px !important;
+    max-width: 80px !important;
+    max-height: 80px !important;
+    border-radius: 100% !important;
+}
+
+.filter-left-title {
+    background-color: var(--color-header-table) !important;
+}
+
+.page-box-left {
+    border-radius: 4px;
+    background-color: white;
+}
+
+.page-box-right {
+    border-radius: 4px;
+    background-color: white;
+    min-height: 100%;
+}
+
+.token-mau-in label {
+    font-size: 14px;
+    font-family: var(--font-family-main) !important;
+    font-weight: 600;
+}
+
+.data-grid-cell-trangthai-active {
+    color: #5572cb !important;
+}
+
+.data-grid-cell-trangthai-notActive {
+    color: rgb(255, 153, 0) !important;
+}
+
+.bank-account {
+    font-size: 18px !important;
+    font-weight: 600;
+    font-family: 'Courier New', monospace !important;
+}
+
+.text-search {
+    background-color: #fff;
+}
+
+.text-search input {
+    /* ô nhập nội dung tìm kiếm */
+    padding-left: 0px !important;
+}
+
+.text-search .MuiButtonBase-root {
+    /* ô tìm kiếm: nếu có Icon search: reset paddingLeft = 0 */
+    margin-left: -12px !important;
+}
+
+.tab-active {
+    border-radius: 16px !important;
+    border-bottom-right-radius: unset !important;
+    border-bottom-left-radius: unset !important;
+    background-color: var(--color-bg) !important;
+}
+
+.MuiTableFooter-root {
+    background-color: var(--color-header-table) !important;
+}
+
+.MuiTableFooter-root .MuiTableCell-root {
+    padding: 10px !important;
+    font-size: var(--font-size-main);
+    font-weight: 600 !important;
+}
+
+.MuiTableBody-root .MuiTableCell-root {
+    padding: 8px !important;
+}
+
+.table-empty {
+    background-color: antiquewhite;
+}
+
+.table-cell-border {
+    border: 1px solid #ccc;
+}
+
+.table-head-has-colspan tr th {
+    padding: 6px 16px !important;
+}
+
+.td-check-box .MuiButtonBase-root {
+    padding: 0px !important;
+}
+.zalo-template-default {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.zalo-template-default:hover {
+    border-color: var(--color-main);
+}
+.zalo-template .zoa-element-lable {
+    font-weight: 600;
+}
+.zalo-template .btnRemove {
+    color: #b93530;
+    cursor: pointer;
+}
+.page-zalo-template .details-mau-tin {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.page-zalo-template .details-mau-tin:hover {
+    background-color: var(--color-bg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.text-cursor{
+    cursor: pointer;
+    color: var(--color-main);
+}
+.payment-form-hinhthucTT p{
+font-size: 17px;
+font-weight: 500;
+}
+
+.grid-table{
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.grid-table.grid-table-header{
+   text-align: center;
+}
+.grid-table.grid-table-header p{
+   font-weight: 500;
+}
+.grid-table.grid-content .MuiGrid-item{
+    border-right: 1px solid #ccc;
+}
+.grid-table.grid-content .MuiGrid-item p{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.only-icon:hover{
+   color: var(--color-second);
+   cursor: pointer;
+}
+.input-number input{
+    text-align: right;
+}
+.payment-form-hinhthucTT .input-number input{
+    font-weight: 700;
+}

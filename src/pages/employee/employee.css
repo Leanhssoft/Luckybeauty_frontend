@@ -1,0 +1,73 @@
+.bg-table {
+    background-color: #fff;
+}
+.text-th-table {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 16px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    /* Neutral/70 */
+
+    color: #666466;
+}
+.text-td-table {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    /* Neutral/90 */
+
+    color: #333233;
+}
+
+.pagination-view-record {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #666666;
+}
+
+.list-nhan-vien .MuiDataGrid-columnHeaders {
+    background-color: var(--color-bg);
+}
+
+.poppup-them-nhan-vien .MuiPaper-root {
+    max-width: 1050px;
+    /* min-height: 65.625vh; */
+    max-height: 80vh;
+}
+
+.poppup-them-nhan-vien .MuiPaper-root {
+    margin: 0;
+}
+.poppup-them-nhan-vien input[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.poppup-them-nhan-vien .MuiCheckbox-root svg {
+    fill: rgba(0, 0, 0, 0.2);
+}
+.list-nhan-vien .MuiTablePagination-selectLabel,
+.list-nhan-vien .MuiTablePagination-displayedRows {
+    margin-bottom: 0 !important;
+}

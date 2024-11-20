@@ -1,0 +1,80 @@
+
+.todo-lists{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+padding-left: 1.597222222222222vw;
+padding-right: 2.361111111111111vw;
+padding-bottom: 0.2777777777777778vw;
+}
+.todo-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 0.8333333333333334vw;
+    border-bottom: 1px solid #E6E1E6;
+   -webkit-box-align: end;
+       -ms-flex-align: end;
+           align-items: end;
+
+}
+.todo-item_col-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.7361111111111112vw ;
+align-items: center;    
+}
+.todo-item .times {
+    gap: 0.3819444444444444vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0.2777777777777778vw;
+    color: #666466;
+    font-size: 14px;
+}
+.todo-name {
+    color: #666466;
+    font-size: 14px;
+}
+.todo-item .job{
+    margin-top: 0.2777777777777778vw;
+    font-weight: 700;
+    color: 
+    #666466;
+    font-size: 16px;
+    line-height: 1.6666666666666667vw;
+    float: right;
+}
+.state{
+    color: #009EF7;
+    background: #F1FAFF;
+border-radius: 8px;
+font-size: 12px;
+padding: 4px 12px;
+}
+.todo-item .price{
+    color: 
+    #4C4B4C;
+    margin-top: 0.2777777777777778vw;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.todo-item .avatar{
+    margin: 0;
+}
+
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

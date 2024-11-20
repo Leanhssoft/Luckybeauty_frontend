@@ -1,0 +1,37 @@
+.page-ban-hang .list-item-nhomhanghoa {
+    padding: 4px 12px 4px 4px;
+    width: fit-content!important;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: .4s;
+    position: relative;
+}
+
+.page-ban-hang .list-item-nhomhanghoa .ten-nhom-hang span {
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    font-size: var(--font-size-main);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    position: relative
+}
+
+.page-ban-hang .list-item-nhomhanghoa:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.main_page_thu_ngan .tab-hoadon .active{
+    border: 1px solid var(--color-main);
+    border-bottom: none;
+}
+.main_page_thu_ngan .tab-bottom .active{
+    box-shadow: 3px -3px 10px 2px #e9ebef;
+}
+.main_page_thu_ngan .tab-bottom, .tab-hoadon .not-active{
+    border-bottom:  1px solid var(--color-main);
+}

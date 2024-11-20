@@ -1,0 +1,221 @@
+.rounded-4px button {
+    border-radius: 4px !important;
+}
+
+.search-field input {
+    padding: 8px 16px !important;
+    color: #b2afb2;
+}
+
+.resize-height button {
+    height: 40px;
+    padding: 10px 16px;
+}
+
+.resize-height {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.customer-page .form-search {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+
+/* .customer-page .MuiDataGrid-columnHeaders {
+    background-color: var(--color-bg);
+} */
+
+.poppup-add input {
+    border-radius: 8px;
+    outline: none;
+}
+
+#note {
+    height: 100px;
+    border-radius: 8px;
+    color: #cdc9cd;
+    padding: 16px;
+    border-color: #e6e1e6;
+    outline: none;
+}
+
+
+/* .form-container label {
+    color: #4c4b4c;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 14px;
+} */
+
+#input-file {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 6;
+    cursor: pointer;
+    padding: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.form-add {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2.7777777777777777vw;
+}
+
+.box-1>div:first-child {
+    border-radius: 8px;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: var(--color-bg);
+}
+
+.inner-box {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.inner-box>.MuiFormControl-root {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.inner-box .MuiInputBase-formControl {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.poppup-add {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background: #ffffff;
+    padding: 28px 24px;
+    width: calc(100vw - 48px);
+    max-width: 1024px;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 12px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    z-index: 30;
+}
+
+.poppup-add.show {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.customer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 20;
+    height: 100vh;
+    opacity: 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.customer-overlay.show {
+    pointer-events: all;
+    opacity: 1;
+}
+
+
+/* .poppup-title {
+    font-size: 20px;
+    color: #3D475C;
+    font-weight: 700;
+    font-style: normal;
+} */
+
+.poppup-des {
+    color: #999699;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.poppup-add ::-webkit-input-placeholder {
+    opacity: 0.6;
+}
+
+.poppup-add ::-moz-placeholder {
+    opacity: 0.6;
+}
+
+.poppup-add :-ms-input-placeholder {
+    opacity: 0.6;
+}
+
+.poppup-add ::-ms-input-placeholder {
+    opacity: 0.6;
+}
+
+.poppup-add ::placeholder {
+    opacity: 0.6;
+}
+
+.last-column {
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #f1faff;
+    color: #009ef7;
+    font-size: 12px;
+}
+
+.MuiTablePagination-displayedRows,
+.MuiTablePagination-selectLabel {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .form-add {
+        flex-direction: column;
+    }
+    .poppup-add {
+        height: calc(100vh - 48px);
+        overflow: auto;
+        padding-bottom: 0;
+    }
+}

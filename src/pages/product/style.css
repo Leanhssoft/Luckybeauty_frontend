@@ -1,0 +1,38 @@
+.list-nhomhanghoa {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.list-icon-action {
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    background-color: #fffff0;
+}
+
+.list-icon-action svg {
+    font-size: 18px;
+    color: #1374ad;
+}
+
+.list-icon-action span {
+    font-size: 13px;
+    color: #1374ad;
+}
+
+/* not working */
+
+.list-icon-action ul li:eq(2) span,
+svg {
+    color: red;
+}
+
+.dich-vu-page .MuiTablePagination-selectLabel,
+.dich-vu-page .MuiTablePagination-displayedRows {
+    margin-bottom: 0 !important;
+}
+.dich-vu-page .MuiDataGrid-columnHeadersInner,
+.dich-vu-page .MuiDataGrid-columnHeaders {
+    background-color: var(--color-bg);
+}

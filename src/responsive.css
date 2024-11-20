@@ -1,0 +1,80 @@
+/* For extremely small screen devices (595px and below) */
+
+.page-full {
+    min-height: 85vh !important;
+    max-height: 85vh !important;
+    background-color: #fff;
+}
+
+.data-grid-row-full {
+    background-color: #fff;
+    min-height: calc(70vh - 44px) !important;
+    max-height: calc(70vh - 44px) !important;
+}
+
+@media only screen and (max-width: 595px) {
+    .data-grid-row {
+        min-height: calc(60vh - 44px) !important;
+        max-height: calc(60vh - 44px) !important;
+    }
+    .page-box-left {
+        max-height: calc(60vh + 4px) !important;
+        min-height: calc(60vh + 4px) !important;
+    }
+}
+
+/* Small screen devices (600px and above) */
+
+@media only screen and (min-width: 600px) {
+    .data-grid-row {
+        min-height: calc(65vh - 44px) !important;
+        max-height: calc(65vh - 44px) !important;
+    }
+    .page-box-left {
+        max-height: calc(65vh + 4px) !important;
+        min-height: calc(65vh + 4px) !important;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+
+@media only screen and (min-width: 768px) {
+    .data-grid-row {
+        min-height: calc(70vh - 44px) !important;
+        max-height: calc(70vh - 44px) !important;
+    }
+    .page-box-left {
+        max-height: calc(70vh + 4px) !important;
+        min-height: calc(70vh + 4px) !important;
+    }
+}
+
+/* Big screen devices (889px and above) */
+
+@media only screen and (min-width: 889px) {
+    .data-grid-row {
+        max-height: calc(80vh + 4px) !important;
+        min-height: calc(80vh + 4px) !important;
+    }
+    .page-box-left {
+        max-height: calc(80vh + 4px) !important;
+        min-height: calc(80vh + 4px) !important;
+    }
+}
+
+/* Extra big screen devices (1200px and above) */
+
+@media only screen and (min-width: 1200px) {
+    .data-grid-row {
+        min-height: calc(75vh - 44px) !important;
+        max-height: calc(75vh - 44px) !important;
+    }
+    .data-grid-row-chosed {
+        min-height: calc(70vh - 32px) !important;
+        max-height: calc(70vh - 32px) !important;
+    }
+    .page-box-left {
+        min-height: calc(80vh - 32px) !important;
+        max-height: calc(80vh - 32px) !important;
+    }
+}
